@@ -128,10 +128,15 @@ button:hover .modal-icon {
   display: block;
   position: relative;
 }
-.input-wrap:hover,
-.input-wrap:focus {
+.input-wrap:hover {
   fill: var(--second-color);
   background-color: var(--second-color);
+}
+.modal-form-input:focus,
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--second-color);
+  outline: none;
+  border-color: var(--second-color);
 }
 .modal-form-input {
   width: 100%;
